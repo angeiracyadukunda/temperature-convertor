@@ -9,13 +9,11 @@
 //         tFahrenheit: Temperature in Fahrenheit
 //         tCelcius: Temperature in Celcius 
 
-function celsiusToFahrenheit(celsius) {
-   
-    const fahrenheit = (celsius * 9/5) + 32;
-    return fahrenheit;
-  }
+function celsiusToFahrenheit(celsius) { 
+  const fahrenheit = (celsius * 9/5) + 32;
+  return fahrenheit;
+}
   
- 
   const celsiusTemperature = 25;
   const convertedTemperature = celsiusToFahrenheit(celsiusTemperature);
   
