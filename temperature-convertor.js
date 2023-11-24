@@ -9,21 +9,16 @@
 //         tFahrenheit: Temperature in Fahrenheit
 //         tCelcius: Temperature in Celcius 
 
-function temperatureConvert(fahreneit){
+function celsiusToFahrenheit(celsius) {
+   
+    const fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+  }
+  
  
-    
-    var fconvert=(58 * 9/5) + 32
-
-    return fconvert;
-
-
-    var CelciusTfahreneit=(40*5/9)+32;
-    return CelciusTfahreneit;
-
-    console.log(CelciusTfahreneit);
-    console.log(fconvert);
-}
-
-temperatureConvert(58);
+  const celsiusTemperature = 25;
+  const convertedTemperature = celsiusToFahrenheit(celsiusTemperature);
+  
+  console.log(`${celsiusTemperature} degrees Celsius is ${convertedTemperature} degrees Fahrenheit.`);
 
 
